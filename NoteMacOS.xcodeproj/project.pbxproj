@@ -13,6 +13,11 @@
 		C438A7C6271C9782004E63AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C438A7B4271C9780004E63AB /* ContentView.swift */; };
 		C438A7C7271C9782004E63AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C438A7B5271C9782004E63AB /* Assets.xcassets */; };
 		C438A7C8271C9782004E63AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C438A7B5271C9782004E63AB /* Assets.xcassets */; };
+		C438A7D3271C9867004E63AB /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C438A7D2271C9867004E63AB /* Home.swift */; };
+		C438A7D4271CB3A8004E63AB /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C438A7D2271C9867004E63AB /* Home.swift */; };
+		C438A7D7271CBD9E004E63AB /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = C438A7D6271CBD9E004E63AB /* Note.swift */; };
+		C438A7D8271CBD9E004E63AB /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = C438A7D6271CBD9E004E63AB /* Note.swift */; };
+		C438A7DA271CC299004E63AB /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C438A7D9271CC299004E63AB /* BlurView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,9 @@
 		C438A7BA271C9782004E63AB /* NoteMacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteMacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C438A7C0271C9782004E63AB /* NoteMacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteMacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C438A7C2271C9782004E63AB /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		C438A7D2271C9867004E63AB /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		C438A7D6271CBD9E004E63AB /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		C438A7D9271CC299004E63AB /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,8 @@
 		C438A7B2271C9780004E63AB /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				C438A7D5271CBD8A004E63AB /* Model */,
+				C438A7D1271C9837004E63AB /* View */,
 				C438A7B3271C9780004E63AB /* NoteMacOSApp.swift */,
 				C438A7B4271C9780004E63AB /* ContentView.swift */,
 				C438A7B5271C9782004E63AB /* Assets.xcassets */,
@@ -76,6 +86,23 @@
 				C438A7C2271C9782004E63AB /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		C438A7D1271C9837004E63AB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C438A7D2271C9867004E63AB /* Home.swift */,
+				C438A7D9271CC299004E63AB /* BlurView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C438A7D5271CBD8A004E63AB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C438A7D6271CBD9E004E63AB /* Note.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,7 +204,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C438A7C5271C9782004E63AB /* ContentView.swift in Sources */,
+				C438A7D3271C9867004E63AB /* Home.swift in Sources */,
+				C438A7DA271CC299004E63AB /* BlurView.swift in Sources */,
 				C438A7C3271C9782004E63AB /* NoteMacOSApp.swift in Sources */,
+				C438A7D7271CBD9E004E63AB /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,7 +216,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C438A7C6271C9782004E63AB /* ContentView.swift in Sources */,
+				C438A7D4271CB3A8004E63AB /* Home.swift in Sources */,
 				C438A7C4271C9782004E63AB /* NoteMacOSApp.swift in Sources */,
+				C438A7D8271CBD9E004E63AB /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
